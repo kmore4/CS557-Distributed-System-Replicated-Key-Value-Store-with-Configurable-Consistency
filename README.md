@@ -1,11 +1,8 @@
-STEP1
-Generate the message definition file i.e.kv_pb2.py from kv.proto and keep in the same directory.
+STEP1: Generate the message definition file i.e.kv_pb2.py from kv.proto and keep in the same directory.
 
-STEP2
-Create a text file which contains information about the replicas ie replicas.txt
+STEP2: Create a text file which contains information about the replicas ie replicas.txt
 
-STEP3
-Start the all Replicas by typing the following command: python3 replica.py <replica name> <port_no> <replicas.txt>
+STEP3: Start the all Replicas by typing the following command: python3 replica.py <replica name> <port_no> <replicas.txt>
 
 Example(4 Replicas):
 
